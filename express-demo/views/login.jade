@@ -1,0 +1,17 @@
+extend layout
+
+block content
+    -var action ='/users';
+    -var method ='post';
+        div.login-container
+            .login-content.animated.rollIn
+                h1.login-title #{title}
+                form(action='#{action}',method ='#{method}' onsubmit="return validate();")
+                    label.login-label-item
+                        i.iconfont &#xe649;
+                        input(type="text" name="username" id="username" class="login-input" placeholder="请输入用户名")
+                    label.login-label-item
+                        i.iconfont &#xe603;
+                        input(type="password" name="password" id="password" class="login-input" placeholder="请输入密码")
+                    button.login-button#login-button 登陆
+                p#login-tip.login-tip 

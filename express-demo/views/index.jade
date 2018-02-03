@@ -1,0 +1,10 @@
+extends layout
+
+block content
+ 
+  h1.titleClass #{title}
+  div.container#container 
+   each item, index in topicUrl
+    li.item-img
+     a(href="#")
+      img(data-original="#{item.imghref}" class="beaut-img"  alt="" width="234" src="/images/loading.gif")

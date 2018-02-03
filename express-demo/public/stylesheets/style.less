@@ -1,0 +1,88 @@
+@import "variables.less";
+html, body {
+    //.bg(#F3F2F3)
+    height: 100%;
+    background: url('../images/bg.png') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    /* project id 504014 */
+    src: url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.eot');
+    src: url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.woff') format('woff'), url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.ttf') format('truetype'), url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.svg#iconfont') format('svg');
+}
+
+.container {
+    border: 2px solid #22262950;
+}
+
+h1 {
+    font-size: @font-size-h1;
+    font-family: @font-family-monospace;
+    text-align: center;
+}
+
+.container img {
+    width: 236px;
+    background-color: url('../images/loading.gif') 50% no-repeat;
+}
+
+.item-img {
+    margin: 5px px 0 0;
+    float: left;
+    width: 236px;
+}
+
+//login
+.login-container {
+    
+    .center();
+    align-items: center;
+    height: 100%;
+    .login-content {
+        .border-radius(10px);
+        .center();
+        -moz-box-shadow: 0px 4px 44px #eb1eeb;
+        -webkit-box-shadow: 0px 4px 44px #eb1eeb;
+        box-shadow: 0px 4px 44px #eb1eeb;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 50px;
+        form {
+            .center();
+            flex-direction: column;
+        }
+    }
+    .login-label-item {
+        border-bottom: #e9ecee 1px solid;
+        margin-top: 5px;
+    }
+    .login-input {
+        height: 60px;
+        width: 320px;
+        padding-left: 4px;
+    }
+    .login-button {
+        padding: 12px 169px;
+        margin-top: 50px;
+        cursor: pointer;
+        white-space: nowrap;
+        background-color: #3499DA;
+        font-size: 18px;
+        color: #FFF;
+        border: none;
+        letter-spacing: 1px;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 2px;
+    }
+    .login-tip {
+        height: 21px;
+        line-height: 21px;
+        margin-top: 12px;
+        font-size: 16px;
+        color: @brand-danger;
+    }
+}

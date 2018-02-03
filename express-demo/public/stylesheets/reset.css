@@ -1,0 +1,91 @@
+body {
+    background-color: #F3F2F1;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 14px/1.5 tahoma, arial, \5b8b\4f53;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+a {
+    color: #00B7FF;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+form{
+    border: none;
+}
+input, button, select, textarea {
+outline: none;
+-webkit-appearance: none;
+border-radius: 0;
+border: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 504014 */
+  src: url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.eot');
+  src: url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_504014_gr3eu9qolsy06bt9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:24px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
